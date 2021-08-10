@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "umbrellav2:blocks/noir",
+    "up": "umbrellav2:blocks/noir",
+    "north": "umbrellav2:blocks/noir",
+    "east": "umbrellav2:blocks/noir",
+    "south": "umbrellav2:blocks/noir",
+    "west": "umbrellav2:blocks/noir",
+    "particle": "umbrellav2:blocks/noir"
+  }
+}
