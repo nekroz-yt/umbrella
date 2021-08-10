@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "potion",
+  "definition": {
+    "name": "Virus G",
+    "effectName": "Virus G",
+    "icon": "kisspng-umbrella-corps-umbrella-corporation-logo-corporation-cliparts-5a85f751100e09.0436815615187290410658.png",
+    "color": {
+      "value": -10092340,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}

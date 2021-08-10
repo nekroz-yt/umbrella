@@ -1,0 +1,19 @@
+{
+  "_fv": 18,
+  "_type": "potion",
+  "definition": {
+    "name": "Virus Alpha",
+    "effectName": "Virus Alpha",
+    "icon": "kisspng-umbrella-corps-umbrella-corporation-logo-corporation-cliparts-5a85f751100e09.0436815615187290410658.png",
+    "color": {
+      "value": -16724788,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true
+  }
+}

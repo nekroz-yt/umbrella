@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "umbrellav2:items/piocheumbrella"
+  }
+}

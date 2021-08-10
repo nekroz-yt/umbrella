@@ -1,0 +1,11 @@
+{
+  "_fv": 18,
+  "_type": "tab",
+  "definition": {
+    "name": "Umbrella",
+    "icon": {
+      "value": "CUSTOM:Umbrellalogo"
+    },
+    "showSearch": true
+  }
+}

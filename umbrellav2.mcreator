@@ -1,0 +1,176 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Umbrellaarmor",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "umbrellaarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Umbrellascientifique",
+      "type": "armor",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "umbrellascientifique",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "Umbrellapioche",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "umbrellapioche"
+    },
+    {
+      "name": "Umbrellalogo",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "umbrellalogo"
+    },
+    {
+      "name": "Umbrella",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "umbrella"
+    },
+    {
+      "name": "Hazmat",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hazmat",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "VirusT",
+      "type": "potion",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "virus_t"
+    },
+    {
+      "name": "VirusAlpha",
+      "type": "potion",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "virus_alpha"
+    },
+    {
+      "name": "VirusC",
+      "type": "potion",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "virus_c"
+    },
+    {
+      "name": "VirusG",
+      "type": "potion",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "virus_g"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.umbrellav2.hazmat_chestplate": "Hazmat",
+      "item.umbrellav2.umbrellascientifique_helmet": "Umbrellascientifique",
+      "effect.virus_alpha": "Virus Alpha",
+      "item.umbrellav2.umbrellaarmor_boots": "Umbrellaarmor",
+      "item.minecraft.splash_potion.effect.virus_t": "Splash Virus T",
+      "item.minecraft.tipped_arrow.effect.virus_t": "Arrow of Virus T",
+      "item.umbrellav2.hazmat_helmet": "Hazmat",
+      "item.minecraft.splash_potion.effect.virus_c": "Splash Virus C",
+      "item.umbrellav2.umbrellaarmor_chestplate": "Umbrellaarmor",
+      "item.minecraft.splash_potion.effect.virus_g": "Splash Virus G",
+      "item.umbrellav2.umbrellascientifique_boots": " Umbrellascientifique",
+      "itemGroup.tabumbrella": "Umbrella",
+      "item.minecraft.potion.effect.virus_alpha": "Virus Alpha",
+      "item.umbrellav2.umbrellapioche": "Umbrellapioche",
+      "item.minecraft.tipped_arrow.effect.virus_alpha": "Arrow of Virus Alpha",
+      "item.umbrellav2.umbrellascientifique_leggings": "Umbrellascientifique",
+      "item.minecraft.potion.effect.virus_c": "Virus C",
+      "effect.virus_c": "Virus C",
+      "item.minecraft.potion.effect.virus_g": "Virus G",
+      "item.minecraft.lingering_potion.effect.virus_t": "Lingering Virus T",
+      "effect.virus_g": "Virus G",
+      "item.umbrellav2.umbrellalogo": "Umbrellalogo",
+      "item.minecraft.tipped_arrow.effect.virus_g": "Arrow of Virus G",
+      "item.umbrellav2.umbrellaarmor_leggings": "Umbrellaarmor",
+      "item.minecraft.potion.effect.virus_t": "Virus T",
+      "item.minecraft.lingering_potion.effect.virus_alpha": "Lingering Virus Alpha",
+      "effect.virus_t": "Virus T",
+      "item.umbrellav2.umbrellascientifique_chestplate": "Umbrellascientifique",
+      "item.minecraft.tipped_arrow.effect.virus_c": "Arrow of Virus C",
+      "item.umbrellav2.umbrellaarmor_helmet": " Umbrellaarmor",
+      "item.minecraft.lingering_potion.effect.virus_g": "Lingering Virus G",
+      "item.umbrellav2.hazmat_leggings": "Hazmat",
+      "item.umbrellav2.hazmat_boots": " Hazmat",
+      "item.minecraft.splash_potion.effect.virus_alpha": "Splash Virus Alpha",
+      "item.minecraft.lingering_potion.effect.virus_c": "Lingering Virus C"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "umbrellav2",
+    "modName": "umbrellav2",
+    "version": "1.0.0",
+    "author": "marti, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "umbrellav2",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
