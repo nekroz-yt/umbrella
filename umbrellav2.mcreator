@@ -108,6 +108,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "virus_g"
+    },
+    {
+      "name": "Noir",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "noir"
     }
   ],
   "variable_elements": [],
@@ -123,6 +132,7 @@
       "item.umbrellav2.hazmat_helmet": "Hazmat",
       "item.minecraft.splash_potion.effect.virus_c": "Splash Virus C",
       "item.umbrellav2.umbrellaarmor_chestplate": "Umbrellaarmor",
+      "block.umbrellav2.noir": "Noir",
       "item.minecraft.splash_potion.effect.virus_g": "Splash Virus G",
       "item.umbrellav2.umbrellascientifique_boots": " Umbrellascientifique",
       "itemGroup.tabumbrella": "Umbrella",
