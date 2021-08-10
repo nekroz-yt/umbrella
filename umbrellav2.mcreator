@@ -108,6 +108,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "virus_g"
+    },
+    {
+      "name": "Noir",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "noir"
+    },
+    {
+      "name": "Bleu",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bleu"
     }
   ],
   "variable_elements": [],
@@ -123,9 +141,11 @@
       "item.umbrellav2.hazmat_helmet": "Hazmat",
       "item.minecraft.splash_potion.effect.virus_c": "Splash Virus C",
       "item.umbrellav2.umbrellaarmor_chestplate": "Umbrellaarmor",
+      "block.umbrellav2.noir": "Noir",
       "item.minecraft.splash_potion.effect.virus_g": "Splash Virus G",
       "item.umbrellav2.umbrellascientifique_boots": " Umbrellascientifique",
       "itemGroup.tabumbrella": "Umbrella",
+      "block.umbrellav2.bleu": "Bleu",
       "item.minecraft.potion.effect.virus_alpha": "Virus Alpha",
       "item.umbrellav2.umbrellapioche": "Umbrellapioche",
       "item.minecraft.tipped_arrow.effect.virus_alpha": "Arrow of Virus Alpha",
