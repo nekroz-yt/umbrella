@@ -38,17 +38,17 @@ public class UmbrellaarmorItem extends Umbrellav2ModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 125;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{10, 10, 10, 10}[slot.getIndex()];
+				return new int[]{25, 25, 30, 25}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 9;
+				return 85;
 			}
 
 			@Override
@@ -58,7 +58,8 @@ public class UmbrellaarmorItem extends Umbrellav2ModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(UmbrellaarmorItem.helmet, (int) (1)), new ItemStack(UmbrellaarmorItem.body, (int) (1)),
+						new ItemStack(UmbrellaarmorItem.legs, (int) (1)), new ItemStack(UmbrellaarmorItem.boots, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -69,7 +70,7 @@ public class UmbrellaarmorItem extends Umbrellav2ModElements.ModElement {
 
 			@Override
 			public float getToughness() {
-				return 1f;
+				return 4.5f;
 			}
 
 			@Override

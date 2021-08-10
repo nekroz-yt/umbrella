@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "umbrellav2:items/logoumbrella"
+    "layer0": "umbrellav2:items/umbrellalogo"
   }
 }

@@ -14,10 +14,10 @@
       "value": "CUSTOM:Umbrella"
     },
     "armorTextureFile": "umbrella_",
-    "helmetName": " Umbrellaarmor",
-    "bodyName": "Umbrellaarmor",
-    "leggingsName": "Umbrellaarmor",
-    "bootsName": "Umbrellaarmor",
+    "helmetName": " Umbrella armor",
+    "bodyName": "Umbrella armor",
+    "leggingsName": "Umbrella armor",
+    "bootsName": "Umbrella armor",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],
@@ -38,17 +38,30 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 25,
-    "damageValueHelmet": 10,
-    "damageValueBody": 10,
-    "damageValueLeggings": 10,
-    "damageValueBoots": 10,
-    "enchantability": 9,
-    "toughness": 1.0,
+    "maxDamage": 125,
+    "damageValueHelmet": 25,
+    "damageValueBody": 30,
+    "damageValueLeggings": 25,
+    "damageValueBoots": 25,
+    "enchantability": 85,
+    "toughness": 4.5,
     "knockbackResistance": 1.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Umbrellaarmor.helmet"
+      },
+      {
+        "value": "CUSTOM:Umbrellaarmor.body"
+      },
+      {
+        "value": "CUSTOM:Umbrellaarmor.legs"
+      },
+      {
+        "value": "CUSTOM:Umbrellaarmor.boots"
+      }
+    ]
   }
 }

@@ -38,17 +38,17 @@ public class UmbrellascientifiqueItem extends Umbrellav2ModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 20;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{2, 5, 6, 2}[slot.getIndex()];
+				return new int[]{4, 4, 5, 4}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 9;
+				return 5;
 			}
 
 			@Override
@@ -58,7 +58,9 @@ public class UmbrellascientifiqueItem extends Umbrellav2ModElements.ModElement {
 
 			@Override
 			public Ingredient getRepairMaterial() {
-				return Ingredient.EMPTY;
+				return Ingredient.fromStacks(new ItemStack(UmbrellascientifiqueItem.helmet, (int) (1)),
+						new ItemStack(UmbrellascientifiqueItem.body, (int) (1)), new ItemStack(UmbrellascientifiqueItem.legs, (int) (1)),
+						new ItemStack(UmbrellascientifiqueItem.boots, (int) (1)));
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -77,28 +79,22 @@ public class UmbrellascientifiqueItem extends Umbrellav2ModElements.ModElement {
 				return 0f;
 			}
 		};
-		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.HEAD, new Item.Properties().group(UmbrellaItemGroup.tab)) {
-			@Override
-			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "umbrellav2:textures/models/armor/scientifique1__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
-			}
-		}.setRegistryName("umbrellascientifique_helmet"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.CHEST, new Item.Properties().group(UmbrellaItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "umbrellav2:textures/models/armor/scientifique1__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "umbrellav2:textures/models/armor/scientist__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("umbrellascientifique_chestplate"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.LEGS, new Item.Properties().group(UmbrellaItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "umbrellav2:textures/models/armor/scientifique1__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "umbrellav2:textures/models/armor/scientist__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("umbrellascientifique_leggings"));
 		elements.items.add(() -> new ArmorItem(armormaterial, EquipmentSlotType.FEET, new Item.Properties().group(UmbrellaItemGroup.tab)) {
 			@Override
 			public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlotType slot, String type) {
-				return "umbrellav2:textures/models/armor/scientifique1__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
+				return "umbrellav2:textures/models/armor/scientist__layer_" + (slot == EquipmentSlotType.LEGS ? "2" : "1") + ".png";
 			}
 		}.setRegistryName("umbrellascientifique_boots"));
 	}

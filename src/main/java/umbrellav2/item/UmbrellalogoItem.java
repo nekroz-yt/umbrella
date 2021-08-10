@@ -1,8 +1,6 @@
 
 package umbrellav2.item;
 
-import umbrellav2.itemgroup.UmbrellaItemGroup;
-
 import umbrellav2.Umbrellav2ModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
@@ -26,7 +24,7 @@ public class UmbrellalogoItem extends Umbrellav2ModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(UmbrellaItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
+			super(new Item.Properties().group(null).maxStackSize(64).rarity(Rarity.COMMON));
 			setRegistryName("umbrellalogo");
 		}
 

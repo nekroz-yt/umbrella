@@ -44,7 +44,7 @@ public class VirusCPotion extends Umbrellav2ModElements.ModElement {
 	public static class EffectCustom extends Effect {
 		private final ResourceLocation potionIcon;
 		public EffectCustom() {
-			super(EffectType.NEUTRAL, -205);
+			super(EffectType.HARMFUL, -205);
 			setRegistryName("virus_c");
 			potionIcon = new ResourceLocation(
 					"umbrellav2:textures/kisspng-umbrella-corps-umbrella-corporation-logo-corporation-cliparts-5a85f751100e09.0436815615187290410658.png");

@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "logoumbrella",
+    "texture": "umbrellalogo",
     "customModelName": "Normal",
     "name": "Umbrellalogo",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Umbrella"
+      "value": "No creative tab entry"
     },
     "stackSize": 64,
     "enchantability": 0,

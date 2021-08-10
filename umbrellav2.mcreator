@@ -25,7 +25,7 @@
       "ids": {},
       "registry_name": "umbrellascientifique",
       "metadata": {
-        "eh": true,
+        "eh": false,
         "el": true,
         "eb": true,
         "ec": true
@@ -108,6 +108,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "virus_g"
+    },
+    {
+      "name": "Procnoeffecthazmatarmor",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "procnoeffecthazmatarmor",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -117,17 +134,17 @@
       "item.umbrellav2.hazmat_chestplate": "Hazmat",
       "item.umbrellav2.umbrellascientifique_helmet": "Umbrellascientifique",
       "effect.virus_alpha": "Virus Alpha",
-      "item.umbrellav2.umbrellaarmor_boots": "Umbrellaarmor",
+      "item.umbrellav2.umbrellaarmor_boots": "Umbrella armor",
       "item.minecraft.splash_potion.effect.virus_t": "Splash Virus T",
       "item.minecraft.tipped_arrow.effect.virus_t": "Arrow of Virus T",
       "item.umbrellav2.hazmat_helmet": "Hazmat",
       "item.minecraft.splash_potion.effect.virus_c": "Splash Virus C",
-      "item.umbrellav2.umbrellaarmor_chestplate": "Umbrellaarmor",
+      "item.umbrellav2.umbrellaarmor_chestplate": "Umbrella armor",
       "item.minecraft.splash_potion.effect.virus_g": "Splash Virus G",
       "item.umbrellav2.umbrellascientifique_boots": " Umbrellascientifique",
       "itemGroup.tabumbrella": "Umbrella",
       "item.minecraft.potion.effect.virus_alpha": "Virus Alpha",
-      "item.umbrellav2.umbrellapioche": "Umbrellapioche",
+      "item.umbrellav2.umbrellapioche": "pioche Umbrella",
       "item.minecraft.tipped_arrow.effect.virus_alpha": "Arrow of Virus Alpha",
       "item.umbrellav2.umbrellascientifique_leggings": "Umbrellascientifique",
       "item.minecraft.potion.effect.virus_c": "Virus C",
@@ -137,13 +154,13 @@
       "effect.virus_g": "Virus G",
       "item.umbrellav2.umbrellalogo": "Umbrellalogo",
       "item.minecraft.tipped_arrow.effect.virus_g": "Arrow of Virus G",
-      "item.umbrellav2.umbrellaarmor_leggings": "Umbrellaarmor",
+      "item.umbrellav2.umbrellaarmor_leggings": "Umbrella armor",
       "item.minecraft.potion.effect.virus_t": "Virus T",
       "item.minecraft.lingering_potion.effect.virus_alpha": "Lingering Virus Alpha",
       "effect.virus_t": "Virus T",
       "item.umbrellav2.umbrellascientifique_chestplate": "Umbrellascientifique",
       "item.minecraft.tipped_arrow.effect.virus_c": "Arrow of Virus C",
-      "item.umbrellav2.umbrellaarmor_helmet": " Umbrellaarmor",
+      "item.umbrellav2.umbrellaarmor_helmet": " Umbrella armor",
       "item.minecraft.lingering_potion.effect.virus_g": "Lingering Virus G",
       "item.umbrellav2.hazmat_leggings": "Hazmat",
       "item.umbrellav2.hazmat_boots": " Hazmat",

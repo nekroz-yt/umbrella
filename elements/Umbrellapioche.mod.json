@@ -5,21 +5,25 @@
     "renderType": 0,
     "texture": "piocheumbrella",
     "customModelName": "Normal",
-    "name": "Umbrellapioche",
+    "name": "pioche Umbrella",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Umbrella"
     },
     "toolType": "Pickaxe",
-    "harvestLevel": 1,
-    "efficiency": 4.0,
-    "attackSpeed": 1.0,
-    "enchantability": 2,
-    "damageVsEntity": 4.0,
-    "usageCount": 100,
+    "harvestLevel": 5,
+    "efficiency": 10.0,
+    "attackSpeed": 2.0,
+    "enchantability": 85,
+    "damageVsEntity": 5.0,
+    "usageCount": 4999,
     "blocksAffected": [],
     "hasGlow": false,
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:Umbrellapioche"
+      }
+    ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false

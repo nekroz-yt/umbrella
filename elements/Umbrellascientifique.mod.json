@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "armor",
   "definition": {
-    "enableHelmet": true,
+    "enableHelmet": false,
     "textureHelmet": "umbrella_head",
     "enableBody": true,
     "textureBody": "umbrella_body",
@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:Umbrella"
     },
-    "armorTextureFile": "scientifique1_",
+    "armorTextureFile": "scientist_",
     "helmetName": "Umbrellascientifique",
     "bodyName": "Umbrellascientifique",
     "leggingsName": "Umbrellascientifique",
@@ -38,17 +38,30 @@
     "bootsModelPartL": "Boots L",
     "bootsModelPartR": "Boots R",
     "bootsModelTexture": "From armor",
-    "maxDamage": 25,
-    "damageValueHelmet": 2,
-    "damageValueBody": 6,
-    "damageValueLeggings": 5,
-    "damageValueBoots": 2,
-    "enchantability": 9,
+    "maxDamage": 20,
+    "damageValueHelmet": 4,
+    "damageValueBody": 5,
+    "damageValueLeggings": 4,
+    "damageValueBoots": 4,
+    "enchantability": 5,
     "toughness": 0.0,
     "knockbackResistance": 0.0,
     "equipSound": {
       "value": ""
     },
-    "repairItems": []
+    "repairItems": [
+      {
+        "value": "CUSTOM:Umbrellascientifique.helmet"
+      },
+      {
+        "value": "CUSTOM:Umbrellascientifique.body"
+      },
+      {
+        "value": "CUSTOM:Umbrellascientifique.legs"
+      },
+      {
+        "value": "CUSTOM:Umbrellascientifique.boots"
+      }
+    ]
   }
 }
